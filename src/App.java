@@ -9,15 +9,18 @@ public class App {
         // MOSTRAR EL ARREGLO ORIGINAL
         System.out.println("Arreglo original:");
         claseSortBubble.printArray(numeros); // IMPRIME
+        System.out.println();
 
         // ORDENAR ASCENDENTE
         claseSortBubble.sortAscendente(numeros); // ORDENA
         System.out.println("Ordenado ascendente:");
         claseSortBubble.printArray(numeros); // IMPRIME
+        System.out.println();
 
         // ORDENAR DESCENDENTE
         claseSortBubble.sortDescendente(numeros); // ORDENA
         System.out.println("Ordenado descendente:");
         claseSortBubble.printArray(numeros); // IMPRIME
+        System.out.println();
     }     
 }
