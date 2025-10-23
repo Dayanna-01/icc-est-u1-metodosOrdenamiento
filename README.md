@@ -17,3 +17,9 @@ Salida de Python
 Salida de Java
 ![alt text](assets/SortSelectionJava.png)
 
+### Practica 3 - 23/OCT
+Metodo Insertion
+Arreglo numeros
+Salida de cadenas
+Salida de personas por edad descendente
+Deber: salida de personas por nombre
