@@ -21,5 +21,8 @@ Salida de Java
 Arreglo de cadenas (nombres)
 ![alt text](assets/CadenasNombres.png)
 
+Arreglo de personas ordenado por nombre
+![alt text](assets/PersonasNombre.png)
+
 Arreglo de personas ordenado por edad
 ![alt text](assets/PersonasEdad.png)
