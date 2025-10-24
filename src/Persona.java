@@ -26,6 +26,6 @@ public class Persona {
 
     @Override
     public String toString() {
-        return name + " (" + age + ")";
+        return "Nombre: " + name + ", " + "Edad: " + age + "\n";
     }
 }

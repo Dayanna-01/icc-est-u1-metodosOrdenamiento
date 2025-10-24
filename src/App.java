@@ -7,7 +7,7 @@ public class App {
         SortInsertion claseSortInsertion = new SortInsertion();
 
         //   SORT BUBBLE
-        int[] numeros = {10, 0, -5, 5, 15, 2};
+        /*int[] numeros = {10, 0, -5, 5, 15, 2};
         System.out.println("1. SORT BUBBLE ");
         System.out.print("Arreglo original: ");
         claseSortBubble.printArray(numeros);
@@ -23,11 +23,11 @@ public class App {
         claseSortBubble.sortDescendente(numeros);
         System.out.print("Ordenado descendente: ");
         claseSortBubble.printArray(numeros);
-        System.out.println();
+        System.out.println();*/
 
 
         //   SORT SELECTION
-        int[] numeros2 = {10, 0, -5, 5, 15, 2};
+        /*int[] numeros2 = {10, 0, -5, 5, 15, 2};
         System.out.println("2. SORT SELECTION ");
         System.out.print("Arreglo original: ");
         claseSortSelection.printArray(numeros2);
@@ -63,28 +63,26 @@ public class App {
         claseSortInsertion.sortDescendente(numeros3);
         System.out.print("Ordenado descendente: ");
         claseSortInsertion.printArray(numeros3);
-        System.out.println();
+        System.out.println();*/
 
         // SORT BY NAME
         String[] nombres = {"Pedro", "Ana", "Maria", "Luis", "Juan"};
-        System.out.println("Array de nombres original:");
+        /*System.out.println("Array de nombres original:");
         claseSortInsertion.printArrayNombres(nombres);
-        System.out.println();
 
         // Ordenar ascendente
-        claseSortInsertion.sortAscendente(nombres, true);
+        claseSortInsertion.sortAscendente(nombres, false);
         System.out.println("\nOrdenado ascendente por nombre:");
         claseSortInsertion.printArrayNombres(nombres);
-        System.out.println();
 
         // Ordenar descendente
-        claseSortInsertion.sortDescendente(nombres, true);
+        claseSortInsertion.sortDescendente(nombres, false);
         System.out.println("\nOrdenado descendente por nombre:");
         claseSortInsertion.printArrayNombres(nombres);
-        System.out.println();
+        System.out.println();*/
         
         // PERSONA
-        System.out.println("SORT INSERTION CON EDAD");
+        //System.out.println("SORT INSERTION CON EDAD");
         Persona[] personas = new Persona[]{
             new Persona("Pedro", 30),
             new Persona("Ana", 25),
@@ -97,9 +95,9 @@ public class App {
         claseSortInsertion.sortPersonasByAge(personas);
         claseSortInsertion.printArrayPersonas(personas);
 
-        System.out.println("\nOrdenado por Nombre de Personas:");
+        /*System.out.println("\nOrdenado por Nombre de Personas:");
         claseSortInsertion.sortPersonasByName(personas);
-        claseSortInsertion.printArrayPersonas(personas);
+        claseSortInsertion.printArrayPersonas(personas);*/
 
     }     
 }

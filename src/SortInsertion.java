@@ -162,14 +162,12 @@ public class SortInsertion {
     }
 
     public void printArrayPersonas(Persona[] personas) {
-        System.out.print("[");
         for (int i = 0; i < personas.length; i++) {
             if (i == personas.length - 1) {
                 System.out.print(personas[i]);
             } else {
-                System.out.print(personas[i] + ", ");
+                System.out.print(personas[i] + " ");
             }
         }
-        System.out.println("]");
     }
 }
