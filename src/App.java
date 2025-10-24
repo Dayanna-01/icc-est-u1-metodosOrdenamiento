@@ -91,13 +91,13 @@ public class App {
 
         System.out.println("Array de Personas Original: ");
         claseSortInsertion.printArrayPersonas(personas);
-        System.out.println("\nOrdenado por Edad de Personas:");
+        /*System.out.println("\nOrdenado por Edad de Personas:");
         claseSortInsertion.sortPersonasByAge(personas);
-        claseSortInsertion.printArrayPersonas(personas);
-
-        /*System.out.println("\nOrdenado por Nombre de Personas:");
-        claseSortInsertion.sortPersonasByName(personas);
         claseSortInsertion.printArrayPersonas(personas);*/
+
+        System.out.println("\nOrdenado por Nombre de Personas:");
+        claseSortInsertion.sortPersonasByName(personas);
+        claseSortInsertion.printArrayPersonas(personas);
 
     }     
 }
